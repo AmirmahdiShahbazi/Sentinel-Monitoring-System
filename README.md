@@ -2,25 +2,6 @@
 
 Sentinel is a lightweight, asynchronous Python monitoring framework with a pluggable checks-and-alerts architecture and a terminal dashboard. It ships with HTTP and system checks, and includes console and file-based alert handlers. Designed to be easy to extend and operate.
 
-<img src="https://raw.githubusercontent.com/AmirmahdiShahbazi/Sentinel-Monitoring-System/main/assets/sentinel.png" alt="Sentinel logo">
-
-- Async-first: run many checks concurrently using asyncio and httpx
-- Pluggable: implement new checks and alerts by subclassing base classes
-- Visual: real-time terminal dashboard using rich
-- Minimal dependencies: psutil, httpx, rich (see requirements.txt)
-
-Table of contents
-- Features
-- Requirements
-- Install
-- Quick start
-- Configuration (config.json)
-- Components & architecture
-- Extending Sentinel (Add check / Add alert)
-- Troubleshooting & suggested fixes
-- Contributing
-- License
-
 ---
 
 ## Features
@@ -229,10 +210,5 @@ Contributions are welcome! Typical workflow:
 - Fork -> branch -> PR with tests and description.
 - Make sure code style is consistent and add docs for new features.
 - If adding checks/alerts, please include example config entries and small usage notes.
-
----
-
-## License
-This repository currently does not include an explicit license. Consider adding an OSI-approved license (for example, MIT) to clarify reuse.
 
 ---
