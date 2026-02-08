@@ -1,0 +1,33 @@
+{
+    "settings": {
+        "interval": 10
+    },
+    "checks": [
+        {
+            "type": "http",
+            "name": "Google",
+            "params": { "url": "https://www.google.com" }
+        },
+        {
+            "type": "http",
+            "name": "Couldflare",
+            "params": { "url": "https://www.cloudflare.com" }
+        },
+        {
+            "type": "http",
+            "name": "Broke API",
+            "params": { "url": "https://www.brokeapi.com" }
+        },
+        {
+            "type": "system",
+            "name": "Local Server",
+            "params": { 
+                "cpu_threshold": 90, 
+                "ram_threshold": 85 
+            }
+        }
+    ],
+    "alerts": [
+        { "type": "log" }
+    ]
+}

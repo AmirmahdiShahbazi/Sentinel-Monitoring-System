@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# --- Project Specific ---
+# We ignore the log files so your personal error history isn't public
+*.log
+sentinel_errors.log
+
+# --- Configuration ---
+# If you plan to put real passwords or private IPs in config.json, 
+# uncomment the line below. Otherwise, keep it to share your setup.
+# config.json
+
+# --- OS / IDE ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
